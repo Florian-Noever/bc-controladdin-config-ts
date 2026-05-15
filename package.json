@@ -1,6 +1,6 @@
 {
     "name": "@floriannoever/bc-controladdin-config-ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shared TypeScript and Rollup configuration for Business Central control add-ins",
     "license": "MIT",
     "author": "Florian Noever",
