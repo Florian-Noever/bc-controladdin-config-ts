@@ -1,0 +1,50 @@
+{
+    "name": "@floriannoever/bc-controladdin-config-ts",
+    "version": "1.0.0",
+    "description": "Shared TypeScript and Rollup configuration for Business Central control add-ins",
+    "license": "MIT",
+    "author": "Florian Noever",
+    "type": "module",
+    "types": "index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./index.d.ts"
+        },
+        "./rollup": "./rollup.base.js",
+        "./tsconfig.json": "./tsconfig.json"
+    },
+    "files": [
+        "index.d.ts",
+        "rollup.base.js",
+        "tsconfig.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Florian-Noever/bc-controladdin-config-ts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Florian-Noever/bc-controladdin-config-ts/issues"
+    },
+    "homepage": "https://github.com/Florian-Noever/bc-controladdin-config-ts",
+    "keywords": [
+        "al",
+        "typescript",
+        "rollup",
+        "control-addin",
+        "business-central",
+        "config"
+    ],
+    "dependencies": {
+        "@rollup/plugin-commonjs": "^29.0.2",
+        "@rollup/plugin-image": "^3.0.3",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "@rollup/plugin-typescript": "^12.1.2",
+        "@rollup/plugin-url": "^8.0.2",
+        "rollup-plugin-postcss": "^4.0.2",
+        "tslib": "^2.8.1",
+        "typescript": "^6.0.3"
+    },
+    "peerDependencies": {
+        "rollup": "^4.0.0"
+    }
+}
